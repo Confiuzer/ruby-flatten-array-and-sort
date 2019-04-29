@@ -2,7 +2,8 @@
 
 ```ruby
 #
-# 1. Write a function to flatten below array and return a new array with all array members at the same level.
+# 1. Write a function to flatten below array and return 
+#    a new array with all array members at the same level.
 #
 #     Input:
 #
