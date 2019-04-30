@@ -22,3 +22,20 @@
 #
 
 input_array = [[['Pen', 'Ruby on Rails', 'Pencil'], ['Rails']], [[], [nil]], [['Ruby'], []]]
+
+# p input_array
+# puts input_array.class
+
+def flatten_array(array)
+  return array.flatten.compact
+end
+
+def sort_array(array)
+  return array.sort
+end
+
+output_array = flatten_array(input_array)
+
+p output_array
+
+p sort_array(output_array)
